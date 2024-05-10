@@ -1,0 +1,26 @@
+header{
+    background-color: #F2F4F4;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    padding: 15px 0;
+    top: 0;
+    left: 0;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .escudo{
+    width: 100px;
+}
+
+header .container a{
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+    margin: 0 15px;
+}

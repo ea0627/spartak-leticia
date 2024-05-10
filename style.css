@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto";
+}
+
+a{
+    display: inline-block;
+}
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#inicio{
+    position: relative;
+}
+
+#inicio img{
+    width: 100%;
+    display: block;
+}
+
+#inicio .bloque-inicio{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 400px;
+    text-align: center;
+    margin-left: -200px;
+}

@@ -1,0 +1,7 @@
+footer{
+    background-color: #F2F4F4;
+}
+
+footer .container .row{
+    display: flex;
+}
